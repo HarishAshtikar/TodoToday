@@ -40,6 +40,12 @@ header h1{
     display: flex;;
 }
 
+input::placeholder {
+    color: rgb(199, 199, 199); /* Change to your desired color */
+    opacity: 0.6; /* Ensure it's fully visible */
+  }
+  
+
 input, button {
     appearance: none;
     border: none;
